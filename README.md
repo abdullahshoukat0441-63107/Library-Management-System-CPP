@@ -17,7 +17,4 @@ This project is a console-based Library Management System built in C++ to demons
 * **Muhammad Ahmad [2025-AI-398]:** Developed Static and Dynamic Polymorphism logic (overloaded search functions and overriding).
 * **Zain Fiaz [2025-AI-393]:** Handled VS Code compilation, GitHub repository management, and debugging.
 
-## How to Run
-1. Clone this repository.
-2. Compile the files using a C++ compiler: `g++ main.cpp Library.cpp -o library_system`
-3. Run the executable: `./library_system`
+
