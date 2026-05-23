@@ -12,9 +12,5 @@ This project is a console-based Library Management System built in C++ to demons
 * **File Handling:** The inventory is automatically saved to and loaded from `library_data.txt`.
 
 ## Group Members & Contributions
-* **Muhammad Abdullah Shoukat [2025-AI-399]:** Designed the class architecture (Library.h) and implemented the Abstract base class.
-* **Ihab Ali [2025-AI-415]:** Implemented File Handling (loading and saving from .txt) and the main interface.
-* **Muhammad Ahmad [2025-AI-398]:** Developed Static and Dynamic Polymorphism logic (overloaded search functions and overriding).
-* **Zain Fiaz [2025-AI-393]:** Handled VS Code compilation, GitHub repository management, and debugging.
 
 
