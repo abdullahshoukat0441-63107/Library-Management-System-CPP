@@ -1,16 +1,59 @@
 # C++ Library Management System (OOP Lab Project)
 
 ## Project Overview
-This project is a console-based Library Management System built in C++ to demonstrate core Object-Oriented Programming principles. The system allows users to add books, view the library inventory, search for items, and persist data using file handling.
+This project is a console-based Library Management System built in C++ to demonstrate core Object-Oriented Programming (OOP) principles. The system allows users to seamlessly add books, view the library inventory, search for specific items, issue books, and process returns with automated fine calculations. All data is persistently stored using file handling.
+
+## Core Features
+* **Inventory Management:** Add new books and view the complete library catalog.
+* **Smart Search:** Search for books by either their unique ID or Title.
+* **Transaction Handling:** Issue books to users and process returns.
+* **Automated Fines:** Automatically calculates late fees (Rs. 50/day) upon book return.
+* **Data Persistence:** Automatically loads and saves all library data to a local text file (`library_data.txt`), ensuring no data is lost between sessions.
 
 ## OOP Concepts Implemented
-* **Encapsulation:** Class variables (like `id` and `title`) are hidden and accessed via public getter methods.
-* **Abstraction:** The `LibraryItem` class uses a pure virtual function (`displayInfo()`), acting as an abstract blueprint.
-* **Inheritance:** The `Book` class inherits attributes and methods from the base `LibraryItem` class.
-* **Static Polymorphism:** The `searchBook()` method is overloaded to accept either an integer ID or a string Title.
-* **Dynamic Polymorphism:** The `displayInfo()` method is overridden in the `Book` class to provide specific implementation details.
-* **File Handling:** The inventory is automatically saved to and loaded from `library_data.txt`.
+* **Encapsulation:** Class variables (like `id`, `title`, and `isIssued`) are hidden and strictly accessed via public getter and setter methods.
+* **Abstraction:** The `LibraryItem` class acts as an abstract blueprint utilizing a pure virtual function (`virtual void displayInfo() = 0;`).
+* **Inheritance:** The `Book` class securely inherits core attributes and methods from the base `LibraryItem` class.
+* **Static Polymorphism:** The `searchBook()` method is overloaded to accept either an integer (ID) or a string (Title).
+* **Dynamic Polymorphism:** The `displayInfo()` method is overridden in the derived `Book` class to provide specific implementation details.
 
-## Group Members & Contributions
+---
 
+## Group Members & Work Breakdown
 
+This project was developed collaboratively. The responsibilities and core module developments were divided as follows:
+
+1. **Abdullah Shoukat**
+   * **Role:** GitHub Repository Management & Main Program Integration.
+   * **Details:** Handled version control, repository setup, and merging. Developed the central `main.cpp` execution flow, implementing the interactive user menu and ensuring all external library components compiled and integrated flawlessly.
+
+2. **[Member 2 Name] - [Roll No]**
+   * **Role:** Class Architecture & Base Abstraction.
+   * **Details:** Designed the header file (`Library.h`) and implemented the Abstract Base Class (`LibraryItem`), setting up the pure virtual functions and protected attributes.
+
+3. **[Member 3 Name] - [Roll No]**
+   * **Role:** Data Persistence & File Handling.
+   * **Details:** Engineered the `loadBooks()` and `saveBooks()` functions in `Library.cpp`. Implemented robust stringstream parsing to safely read and write comma-separated values to the database file.
+
+4. **[Member 4 Name] - [Roll No]**
+   * **Role:** Core Book Mechanics & Dynamic Polymorphism.
+   * **Details:** Implemented the derived `Book` class. Handled constructors, encapsulation (getters/setters), and successfully overrode the `displayInfo()` method for accurate data output.
+
+5. **[Member 5 Name] - [Roll No]**
+   * **Role:** Search Modules & Static Polymorphism.
+   * **Details:** Developed the `displayAll()` function and engineered the overloaded `searchBook()` methods, allowing the system to process both integer and string search queries efficiently.
+
+6. **[Member 6 Name] - [Roll No]**
+   * **Role:** Transaction Logic & Fine Calculation.
+   * **Details:** Developed the logical state checks for the `issueBook()` and `returnBook()` functions. Implemented the mathematical logic to calculate and display financial penalties for overdue returns.
+
+---
+
+## How to Compile and Run
+
+To run this project locally on your machine, you need a C++ compiler (like GCC) installed.
+
+1. **Clone the repository:**
+   ```bash
+   git clone [YOUR_GITHUB_REPO_LINK_HERE]
+   cd [YOUR_REPO_FOLDER_NAME]
