@@ -23,7 +23,7 @@ This project is a console-based Library Management System built in C++ to demons
 
 This project was developed collaboratively. The responsibilities and core module developments were divided as follows:
 
-1. **Abdullah Shoukat**
+1. **[Abdullah Shoukat] - [2025-AI-399]
    * **Role:** GitHub Repository Management & Main Program Integration.
    * **Details:** Handled version control, repository setup, and merging. Developed the central `main.cpp` execution flow, implementing the interactive user menu and ensuring all external library components compiled and integrated flawlessly.
 
@@ -35,15 +35,15 @@ This project was developed collaboratively. The responsibilities and core module
    * **Role:** Data Persistence & File Handling.
    * **Details:** Engineered the `loadBooks()` and `saveBooks()` functions in `Library.cpp`. Implemented robust stringstream parsing to safely read and write comma-separated values to the database file.
 
-4. **[Member 4 Name] - [Roll No]**
+4. **[Zain Fiaz] - [2025-AI-393]**
    * **Role:** Core Book Mechanics & Dynamic Polymorphism.
    * **Details:** Implemented the derived `Book` class. Handled constructors, encapsulation (getters/setters), and successfully overrode the `displayInfo()` method for accurate data output.
 
-5. **[Member 5 Name] - [Roll No]**
+5. **[Muhammad Ahmad] - [2025-AI-398]**
    * **Role:** Search Modules & Static Polymorphism.
    * **Details:** Developed the `displayAll()` function and engineered the overloaded `searchBook()` methods, allowing the system to process both integer and string search queries efficiently.
 
-6. **[Member 6 Name] - [Roll No]**
+6. **[Ihab Ali] - [2025-AI_415]**
    * **Role:** Transaction Logic & Fine Calculation.
    * **Details:** Developed the logical state checks for the `issueBook()` and `returnBook()` functions. Implemented the mathematical logic to calculate and display financial penalties for overdue returns.
 
