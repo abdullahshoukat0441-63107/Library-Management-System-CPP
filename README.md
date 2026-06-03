@@ -31,7 +31,7 @@ This project was developed collaboratively. The responsibilities and core module
    * **Role:** Class Architecture & Base Abstraction.
    * **Details:** Designed the header file (`Library.h`) and implemented the Abstract Base Class (`LibraryItem`), setting up the pure virtual functions and protected attributes.
 
-3. **[Member 3 Name] - [Roll No]**
+3. **[Hafsa Shafiq] - [2025-AI-376]**
    * **Role:** Data Persistence & File Handling.
    * **Details:** Engineered the `loadBooks()` and `saveBooks()` functions in `Library.cpp`. Implemented robust stringstream parsing to safely read and write comma-separated values to the database file.
 
