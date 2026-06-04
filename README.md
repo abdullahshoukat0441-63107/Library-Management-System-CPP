@@ -23,15 +23,15 @@ This project is a console-based Library Management System built in C++ to demons
 
 This project was developed collaboratively. The responsibilities and core module developments were divided as follows:
 
-1. **[Abdullah Shoukat] - [2025-AI-399]
+1. **[All Group]
    * **Role:** GitHub Repository Management & Main Program Integration.
    * **Details:** Handled version control, repository setup, and merging. Developed the central `main.cpp` execution flow, implementing the interactive user menu and ensuring all external library components compiled and integrated flawlessly.
 
-2. **[simra raza] - [2025-AI-377]**
+2. **[simra raza & Hafsa Shafiq] - [2025-AI-377 & 2025-AI-376]**
    * **Role:** Class Architecture & Base Abstraction.
    * **Details:** Designed the header file (`Library.h`) and implemented the Abstract Base Class (`LibraryItem`), setting up the pure virtual functions and protected attributes.
 
-3. **[Hafsa Shafiq] - [2025-AI-376]**
+3. **[Abdullah shoukat] - [2025-AI-389]**
    * **Role:** Data Persistence & File Handling.
    * **Details:** Engineered the `loadBooks()` and `saveBooks()` functions in `Library.cpp`. Implemented robust stringstream parsing to safely read and write comma-separated values to the database file.
 
