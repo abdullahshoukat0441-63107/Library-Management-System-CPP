@@ -35,7 +35,7 @@ This project was developed collaboratively. The responsibilities and core module
    * **Role:** Data Persistence & File Handling.
    * **Details:** Engineered the `loadBooks()` and `saveBooks()` functions in `Library.cpp`. Implemented robust stringstream parsing to safely read and write comma-separated values to the database file.
 
-4. **[Zain Fiaz] - [2025-AI-393]**
+4. *[Zain Fiaz] - [2025-AI-393]**
    * **Role:** Core Book Mechanics & Dynamic Polymorphism.
    * **Details:** Implemented the derived `Book` class. Handled constructors, encapsulation (getters/setters), and successfully overrode the `displayInfo()` method for accurate data output.
 
