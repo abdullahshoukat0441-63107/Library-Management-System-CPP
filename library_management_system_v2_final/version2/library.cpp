@@ -1,6 +1,5 @@
 #include "Library.h"
 
-// --- LibraryItem Methods ---
 LibraryItem::LibraryItem(int id, string title) {
     this->id = id;
     this->title = title;
@@ -8,7 +7,6 @@ LibraryItem::LibraryItem(int id, string title) {
 int LibraryItem::getId() { return id; }
 string LibraryItem::getTitle() { return title; }
 
-// --- Book Methods ---
 Book::Book(int id, string title, string author, bool issued) : LibraryItem(id, title) {
     this->author = author;
     this->isIssued = issued;
@@ -24,7 +22,6 @@ void Book::setStatus(bool status) { isIssued = status; }
 string Book::getAuthor() { return author; }
 bool Book::getStatus() { return isIssued; }
 
-// --- LibraryManager Methods ---
 void LibraryManager::loadBooks() {
     ifstream file(filename);
     if (!file) return; 
@@ -32,7 +29,6 @@ void LibraryManager::loadBooks() {
     string line, title, author, statusStr;
 
     while (getline(file, line)) {
-        // Skip empty lines to prevent garbage data
         if (line.empty() || line.find_first_not_of(" \t\r\n") == string::npos) {
             continue; 
         }
@@ -42,7 +38,6 @@ void LibraryManager::loadBooks() {
         
         int id = 0; bool status = false;
 
-        // Try-catch block ensures bad file data won't crash the program
         try {
             getline(ss, tempId, ','); id = stoi(tempId);
             getline(ss, title, ',');
