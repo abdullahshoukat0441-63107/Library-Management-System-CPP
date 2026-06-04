@@ -14,7 +14,6 @@ int main()
         cout << "5. Issue a Book\n6. Return a Book (Calculate Fine)\n7. Exit\n";
         cout << "Enter choice: ";
 
-        // Validation to prevent infinite loop if user enters a letter instead of a number
         if (!(cin >> choice))
         {
             cout << "Invalid input. Please enter a number." << endl;
