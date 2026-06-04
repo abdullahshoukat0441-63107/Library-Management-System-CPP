@@ -27,7 +27,7 @@ This project was developed collaboratively. The responsibilities and core module
    * **Role:** GitHub Repository Management & Main Program Integration.
    * **Details:** Handled version control, repository setup, and merging. Developed the central `main.cpp` execution flow, implementing the interactive user menu and ensuring all external library components compiled and integrated flawlessly.
 
-2. **[Member 2 Name] - [Roll No]**
+2. **[simra raza] - [2025-AI-377]**
    * **Role:** Class Architecture & Base Abstraction.
    * **Details:** Designed the header file (`Library.h`) and implemented the Abstract Base Class (`LibraryItem`), setting up the pure virtual functions and protected attributes.
 
