@@ -8,8 +8,6 @@
 #include <sstream>
 
 using namespace std;
-
-// Abstract Base Class
 class LibraryItem {
 protected: 
     int id;
@@ -22,8 +20,6 @@ public:
     int getId();
     string getTitle();
 };
-
-// Derived Class
 class Book : public LibraryItem {
 private:
     string author;
