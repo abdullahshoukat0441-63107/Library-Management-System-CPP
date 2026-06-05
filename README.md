@@ -27,15 +27,15 @@ This project was developed collaboratively. The responsibilities and core module
    * **Role:** GitHub Repository Management & Main Program Integration.
    * **Details:** Handled version control, repository setup, and merging. Developed the central `main.cpp` execution flow, implementing the interactive user menu and ensuring all external library components compiled and integrated flawlessly.
 
-2. **[simra raza & Hafsa Shafiq] - [2025-AI-377 & 2025-AI-376]**
+2. **[Simra Raza & Hafsa Shafiq] - [2025-AI-377 & 2025-AI-376]**
    * **Role:** Class Architecture & Base Abstraction.
    * **Details:** Designed the header file (`Library.h`) and implemented the Abstract Base Class (`LibraryItem`), setting up the pure virtual functions and protected attributes.
 
-3. **[Abdullah shoukat] - [2025-AI-389]**
+3. **[Muhammad Abdullah Shoukat] - [2025-AI-399]**
    * **Role:** Data Persistence & File Handling.
    * **Details:** Engineered the `loadBooks()` and `saveBooks()` functions in `Library.cpp`. Implemented robust stringstream parsing to safely read and write comma-separated values to the database file.
 
-4. *[Zain Fiaz] - [2025-AI-393]**
+4. **[Zain Fiaz] - [2025-AI-393]**
    * **Role:** Core Book Mechanics & Dynamic Polymorphism.
    * **Details:** Implemented the derived `Book` class. Handled constructors, encapsulation (getters/setters), and successfully overrode the `displayInfo()` method for accurate data output.
 
