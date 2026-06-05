@@ -1,0 +1,16 @@
+101,Artificial Intelligence: A Modern Approach,Stuart Russell,0
+102,Object-Oriented Programming in C++,Robert Lafore,0
+103,Introduction to Linear Algebra,Gilbert Strang,0
+104,Fundamentals of Software Engineering,Rajib Mall,0
+105,Calculus: Early Transcendentals,James Stewart,0
+106,Clean Code,Robert C. Martin,0
+107,The Pragmatic Programmer,Andrew Hunt,0
+108,Design Patterns,Erich Gamma,0
+109,Introduction to Algorithms,Thomas H. Cormen,0
+110,Code Complete,Steve McConnell,0
+111,Head First Design Patterns,Eric Freeman,0
+112,The Mythical Man-Month,Frederick P. Brooks Jr.,0
+113,Cracking the Coding Interview,Gayla Laakmann McDowell,0
+114,Eloquent JavaScript,Marijn Haverbeke,0
+115,Refactoring,Martin Fowler,0
+116,Structure and Interpretation of Computer Programs,Harold Abelson,0
