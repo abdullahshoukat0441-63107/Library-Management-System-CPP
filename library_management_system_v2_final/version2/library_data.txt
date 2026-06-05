@@ -1,5 +1,0 @@
-45,Faaaah,Zain Fiaz,1
-123,Coding,Ahmed,0
-1122,Psychology,JD Vance,0
-567,coding,Abdullah,0
-789,Urdu ,Zain,0
