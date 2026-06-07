@@ -49,11 +49,4 @@ This project was developed collaboratively. The responsibilities and core module
 
 ---
 
-## How to Compile and Run
 
-To run this project locally on your machine, you need a C++ compiler (like GCC) installed.
-
-1. **Clone the repository:**
-   ```bash
-   git clone [YOUR_GITHUB_REPO_LINK_HERE]
-   cd [YOUR_REPO_FOLDER_NAME]
